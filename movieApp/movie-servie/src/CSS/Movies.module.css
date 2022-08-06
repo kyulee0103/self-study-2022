@@ -1,0 +1,53 @@
+/** @format */
+@font-face {
+  font-family: "roboto";
+  src: url("../fonts/Roboto-Medium.ttf");
+}
+p {
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+.card {
+  width: 230px;
+  background-color: rgba(247, 247, 247, 0.175);
+  border-radius: 10px;
+  border: 1px solid rgba(247, 247, 247, 0.175);
+  height: 420px;
+  font-family: "roboto";
+  margin: 50px;
+}
+
+.card:hover {
+  border: 1px solid red;
+  box-shadow: red 0px 2px 16px;
+}
+
+img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-left: 10px;
+  margin-bottom: 7px;
+}
+
+.rates {
+  font-size: 14px;
+  text-align: right;
+  margin-right: 15px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
