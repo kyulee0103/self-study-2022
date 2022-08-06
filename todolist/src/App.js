@@ -9,8 +9,8 @@ function App() {
     if (todo === "") {
       return;
     }
-    setTodo("");
     setTodoList((now) => [todo, ...now]);
+    setTodo("");
   };
   const gettodo = (e) => {
     setTodo(e.target.value);
